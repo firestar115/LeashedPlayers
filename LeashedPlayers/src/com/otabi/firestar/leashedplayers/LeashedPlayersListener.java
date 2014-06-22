@@ -1,6 +1,7 @@
 package com.otabi.firestar.leashedplayers;
 
 import org.bukkit.Bukkit;
+import org.bukkit.Effect;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
@@ -15,6 +16,7 @@ public class LeashedPlayersListener implements Listener {
 				for(Player p:Bukkit.getOnlinePlayers()){
 					if(evt.getPlayer().hasLineOfSight(p)){
 						p.setLeashHolder(evt.getPlayer());
+						p.getWorld().playEffect(p.getEyeLocation(), Effect.ENDER_SIGNAL, 31);
 					}
 				}
 			}
