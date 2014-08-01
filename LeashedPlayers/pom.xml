@@ -30,10 +30,5 @@
           <artifactId>bukkit</artifactId>
           <version>LATEST</version>
       </dependency>
-      <dependency>
-          <groupId>com.otabi.firestar.moolib</groupId>
-          <artifactId>MooLib</artifactId>
-          <version>1.0.2</version>
-      </dependency>
   </dependencies>
 </project>
