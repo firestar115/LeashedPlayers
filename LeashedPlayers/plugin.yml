@@ -1,4 +1,4 @@
-name: ${name}
+name: ${artifactId}
 main: ${groupId}.${artifactId}
 version: ${version}
 depend: [MooLib]
