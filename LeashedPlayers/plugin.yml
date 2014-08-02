@@ -1,4 +1,4 @@
-name: ${artifactId}
-main: ${groupId}.${artifactId}
-version: ${version}
+name: LeashedPlayers
+main: com.otabi.firestar.leashedplayers.LeashedPlayers
+version: 1.0.1
 depend: [MooLib]
